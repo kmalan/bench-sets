@@ -16,6 +16,9 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 
     Benchmark suites combining discrete and continuous variables include mixed-integer NK landscapes (Li *et al.*, 2006), mixed-binary and real encoded multi-objective problems (McClymont and Keedwell, 2011), mixed-integer problems based on the CEC functions (Liao *et al.*, 2014), and a mixed integer suite based on the BBOB functions (bbob-mixint) with a bi-objective formulation (bbobbiobj-mixint) (Tusar *et al.*, 2019).
 
+4. *Black-box optimization problems*.
+
+    For all benchmarks listed here, the problem formulation and the instances typically are publicly available, which inevitably leads to a specialization of algorithms to these. The Black-Box Optimization Competition (https://www.ini.rub.de/PEOPLE/glasmtbl/projects/bbcomp/) has attempted to address this with its single- and multi-objective, continuous optimization problems. Having said this, in 2019, the evaluation code has been made available.
 
 ## References
 * Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.

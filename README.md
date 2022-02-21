@@ -8,11 +8,12 @@ This resource provides a list of optimisation problem benchmarking sets for evol
     
     In contrast to these, instance-driven sets are the more abstract models that define variable interactions at the lowest level (i.e., independent of a particular problem) and then construct an instance based on fundamental characteristics. Noteworthy examples here are (for binary representations) the NK landscapes (Kauffman, 1993), which has the idea of tunable ruggedness at its core, the W-Model (Weise & Wu, 2018) with configurable features like length, neutrality, epistasis, multi-objectivity, objective values, and ruggedness, and the Pseudo-Boolean Optimization (PBO) suite of 23 binary benchmark functions by (Doerr *et al.*, 2020), which covers a wide range of landscape features and which extends the W-model in various ways (in particular, superposing its transformations to other base problems).
 
-2. number 2
+2. *Artificial real-parameter problems*.
+
+    Benchmark suites have been defined for special sessions, workshops and competitions at both the Association for Computing Machinery (ACM) Genetic and Evolutionary Computation Conference (GECCO) and the Institute of Electrical and Electronics Engineers (IEEE) Congress on Evolutionary Computation (CEC). Documentation and code are available online - for GECCO Black-Box-Optimization-Benchmarking (BBOB) https://coco.gforge.inria.fr, and for CEC https://github.com/P-N-Suganthan/2020-Bound-Constrained-Opt-Benchmark.
 
 
 ## References
-* Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. Applied Soft Computing, 88:106027, 2020.
-* Stuart A. Kauffman. The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press,
-USA, 1993.
-* Thomas Weise and Zijun Wu. Difficult features of combinatorial optimization problems and the tunable W-model benchmark problem for simulating them. In Proceedings of the Genetic and Evolutionary Computation Conference Companion, GECCO '18, pages 1769-1776. ACM, 2018. ISBN 9781450357647.
+* Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.
+* Stuart A. Kauffman. *The Origins of Order: Self-Organization and Selection in Evolution*. Oxford University Press, USA, 1993.
+* Thomas Weise and Zijun Wu. Difficult features of combinatorial optimization problems and the tunable W-model benchmark problem for simulating them. In *Proceedings of the Genetic and Evolutionary Computation Conference Companion*, GECCO '18, pages 1769-1776. ACM, 2018. ISBN 9781450357647.

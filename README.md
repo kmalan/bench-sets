@@ -27,6 +27,10 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 6. *Dynamic single-objective optimization problems*.
 
     Benchmark problems for analysing algorithms in dynamic environments should ideally allow for the nature of the changes (such as severity and frequency) to be configurable. A useful resource on benchmarks for dynamic environments is the comprehensive review by Nguyen *et al.* (2012).
+    
+7. *Expensive optimization problems*.
+
+    The GECCO 2020 Industrial Challenge provides a suite of discrete-valued electrostatic precipitator problems with expensive simulation-based evaluation (https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/gecco-challenge-2020_72989.php). An alternative approach to benchmarking expensive optimization (used by CEC competitions) is to limit the number of allowed function evaluations for solving existing benchmark problems.
 
 ## References
 * Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.

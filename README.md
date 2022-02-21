@@ -19,6 +19,10 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 4. *Black-box optimization problems*.
 
     For all benchmarks listed here, the problem formulation and the instances typically are publicly available, which inevitably leads to a specialization of algorithms to these. The Black-Box Optimization Competition (https://www.ini.rub.de/PEOPLE/glasmtbl/projects/bbcomp/) has attempted to address this with its single- and multi-objective, continuous optimization problems. Having said this, in 2019, the evaluation code has been made available.
+    
+5. *Constrained real-parameter problems*.
+
+    Most real-parameter benchmark problems are unconstrained (except for basic bounds on variables) and there is a general lack of constrained benchmark sets for EC. Exceptions include a set of 18 artificial scalable problems for the CEC 2010 Competition on Constrained Real-Parameter Optimization (https://github.com/P-N-Suganthan/CEC2010-Constrained), six constrained real-parameter multi-objective real-world problems by Tanabe and Ishibuchi (2020) and the set of 57 real-world constrained problems (https://github.com/P-N-Suganthan/2020-RW-Constrained-Optimisation) for both the GECCO and CEC 2020 conferences.
 
 ## References
 * Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.
@@ -26,5 +30,6 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 * Rui Li, Michael T. M. Emmerich, Jeroen Eggermont, Ernst G. P. Bovenkamp, Thomas Back, Jouke Dijkstra, and Johan H. C. Reiber. Mixed-Integer NK Landscapes. In *Proceedings of Parallel Problem Solving from Nature*, pages 42-51. Springer, 2006.
 * Tianjun Liao, Krzysztof Socha, Marco A. Montes de Oca, Thomas Stutzle, and Marco Dorigo. Ant colony optimization for mixed-variable optimization problems. *IEEE Transactions on Evolutionary Computation*, 18(4):503-518, 2014.
 * Kent McClymont and Ed Keedwell. Benchmark Multi-Objective Optimisation Test Problems with Mixed Encodings. In *Proceedings of the 2011 IEEE Congress on Evolutionary Computation*, pages 2131-2138. IEEE, 2011.
+* Ryoji Tanabe and Hisao Ishibuchi. An Easy-to-Use Real-World Multi-Objective Optimization Problem Suite. *Applied Soft Computing*, 89:106078, 2020.
 * Tea Tusar, Dimo Brockhoff, and Nikolaus Hansen. Mixed-integer benchmark problems for single- and bi-objective optimization. In *Proceedings of the Genetic and Evolutionary Computation Conference*, pages 718-726. ACM, 2019.
 * Thomas Weise and Zijun Wu. Difficult features of combinatorial optimization problems and the tunable W-model benchmark problem for simulating them. In *Proceedings of the Genetic and Evolutionary Computation Conference Companion*, GECCO '18, pages 1769-1776. ACM, 2018. ISBN 9781450357647.

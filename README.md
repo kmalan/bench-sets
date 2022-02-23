@@ -33,17 +33,25 @@ This resource provides a list of optimisation problem benchmarking sets for evol
     The GECCO 2020 Industrial Challenge provides a suite of discrete-valued electrostatic precipitator problems with expensive simulation-based evaluation (https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/gecco-challenge-2020_72989.php). An alternative approach to benchmarking expensive optimization (used by CEC competitions) is to limit the number of allowed function evaluations for solving existing benchmark problems.
     
 8. *Multimodal optimization (niching)*.
-Benchmark problem sets for niching include the GECCO and CEC competitions on niching methods for multimodal optimization problems (http://epitropakis.co.uk/gecco2020/) and the single-objective multi-niche competition problems (https://github.com/P-N-Suganthan/CEC2015-Niching).
+
+    Benchmark problem sets for niching include the GECCO and CEC competitions on niching methods for multimodal optimization problems (http://epitropakis.co.uk/gecco2020/) and the single-objective multi-niche competition problems (https://github.com/P-N-Suganthan/CEC2015-Niching).
 
 9. *Noisy*.
-The original version of the Nevergrad platform (https://github.com/facebookresearch/nevergrad) had a strong focus on noisy problems, but the platform now also covers discrete, continuous, mixed-integer problems with and without constraints, with and without noise, explicitly modelled problems and true blackbox problems, etc. The electroencephalography (EEG) data optimization problem set of the CEC Optimization of Big Data 2015 Competition (http://www.husseinabbass.net/BigOpt.html) also includes noisy versions of the problem.
+
+    The original version of the Nevergrad platform (https://github.com/facebookresearch/nevergrad) had a strong focus on noisy problems, but the platform now also covers discrete, continuous, mixed-integer problems with and without constraints, with and without noise, explicitly modelled problems and true blackbox problems, etc. The electroencephalography (EEG) data optimization problem set of the CEC Optimization of Big Data 2015 Competition (http://www.husseinabbass.net/BigOpt.html) also includes noisy versions of the problem.
 
 10. *Problems with interdependent components*.
-While much research tackles combinatorial optimization problems in isolation, many real-world problems are combinations of several sub-problems (Bonyadi *et al.*, 2019). The Travelling Thief Problem (Bonyadi *et al.*, 2013) has been created as an academic platform to systematically study the effect of the interdependence, and the 9 720 instances (https://cs.adelaide.edu.au/~optlog/research/combinatorial.php) vary in four dimensions. A number of single- and multi-objective as well as static and dynamic extensions of the Travelling Thief Problem have been proposed since then (Sachdeva *et al.*, 2020).
+
+    While much research tackles combinatorial optimization problems in isolation, many real-world problems are combinations of several sub-problems (Bonyadi *et al.*, 2019). The Travelling Thief Problem (Bonyadi *et al.*, 2013) has been created as an academic platform to systematically study the effect of the interdependence, and the 9 720 instances (https://cs.adelaide.edu.au/~optlog/research/combinatorial.php) vary in four dimensions. A number of single- and multi-objective as well as static and dynamic extensions of the Travelling Thief Problem have been proposed since then (Sachdeva *et al.*, 2020).
+
+11. *Real-world discrete optimization*.
+
+    The GECCO competition on the optimal camera placement problem (OCP) and the unicost set covering problem (USCP) include a set of discrete real-world problem instances (http://www.mage.fst.uha.fr/brevilliers/gecco-2020-ocp-uscp-competition/). Other real-world problems include the Mazda benchmark problem (http://ladse.eng.isas.jaxa.jp/benchmark/), which is a scalable, multi-objective, discrete-valued, constrained problem based on real-world car structure design, and a benchmark suite of combinatorial logic circuit design problems (de Souza *et al.*, 2020).
 
 ## References
 * Mohammad Reza Bonyadi, Zbigniew Michalewicz, and Luigi Barone. The Travelling Thief Problem: The First Step in the Transition from Theoretical Problems to Realistic Problems. In 2013 *IEEE Congress on Evolutionary Computation*, pages 1037-1044. IEEE, 2013.
 * Mohammad Reza Bonyadi, Zbigniew Michalewicz, Markus Wagner, and Frank Neumann. Evolutionary Computation for Multicomponent Problems: Opportunities and Future Directions. In *Optimization in Industry: Present Practices and Future Scopes*, pages 13-30. Springer, 2019. doi:10.1007/978-3-030-01641-8.
+* Lucas Augusto Muller de Souza, Jose Eduardo Henriques da Silva, Luciano Jerez Chaves, and Heder Soares Bernardino. A benchmark suite for designing combinational logic circuits via metaheuristics. *Applied Soft Computing*, 91:106246, June 2020. doi:10.1016/j.asoc.2020.106246.  
 * Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.
 * Stuart A. Kauffman. *The Origins of Order: Self-Organization and Selection in Evolution*. Oxford University Press, USA, 1993.
 * Rui Li, Michael T. M. Emmerich, Jeroen Eggermont, Ernst G. P. Bovenkamp, Thomas Back, Jouke Dijkstra, and Johan H. C. Reiber. Mixed-Integer NK Landscapes. In *Proceedings of Parallel Problem Solving from Nature*, pages 42-51. Springer, 2006.

@@ -46,13 +46,21 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 
 11. *Real-world discrete optimization*.
 
-    The GECCO competition on the optimal camera placement problem (OCP) and the unicost set covering problem (USCP) include a set of discrete real-world problem instances (http://www.mage.fst.uha.fr/brevilliers/gecco-2020-ocp-uscp-competition/). Other real-world problems include the Mazda benchmark problem (http://ladse.eng.isas.jaxa.jp/benchmark/), which is a scalable, multi-objective, discrete-valued, constrained problem based on real-world car structure design, and a benchmark suite of combinatorial logic circuit design problems (de Souza *et al.*, 2020).
+    The GECCO competition on the optimal camera placement problem (OCP) and the unicost set covering problem (USCP) include a set of discrete real-world problem instances (http://www.mage.fst.uha.fr/brevilliers/gecco-2020-ocp-uscp-competition/). Other real-world problems include the Mazda benchmark problem (http://ladse.eng.isas.jaxa.jp/benchmark/), which is a scalable, multi-objective, discrete-valued, constrained problem based on real-world car structure design, and a benchmark suite of combinatorial logic circuit design problems (de Souza *et al.*, 2020) that cover a range of characteristics influencing the difficulty of the problem.
+    
+12. *Real-world numerical optimization*.
+
+    A set of 57 single-objective real-world constrained problems were defined for competitions at a number of conferences (https://github.com/P-N-Suganthan/2020-RW-Constrained-Optimisation). Other benchmarks include electroencephalography (EEG) data optimization problems (Goh *et al.*, 2015), sum-of-squares clustering benchmark problem set (Gallagher, 2016), the Smart Grid Problems Competitions for real-world problems in the energy domain (http://www.gecad.isep.ipp.pt/ERM-competitions/home/), and the Game
+Benchmark (Volz *et al.*, 2019) of test functions inspired by game-related problems (http://www.gm.fh-koeln.de/~naujoks/gbea/gamesbench.html).
 
 ## References
 * Mohammad Reza Bonyadi, Zbigniew Michalewicz, and Luigi Barone. The Travelling Thief Problem: The First Step in the Transition from Theoretical Problems to Realistic Problems. In 2013 *IEEE Congress on Evolutionary Computation*, pages 1037-1044. IEEE, 2013.
 * Mohammad Reza Bonyadi, Zbigniew Michalewicz, Markus Wagner, and Frank Neumann. Evolutionary Computation for Multicomponent Problems: Opportunities and Future Directions. In *Optimization in Industry: Present Practices and Future Scopes*, pages 13-30. Springer, 2019. doi:10.1007/978-3-030-01641-8.
 * Lucas Augusto Muller de Souza, Jose Eduardo Henriques da Silva, Luciano Jerez Chaves, and Heder Soares Bernardino. A benchmark suite for designing combinational logic circuits via metaheuristics. *Applied Soft Computing*, 91:106246, June 2020. doi:10.1016/j.asoc.2020.106246.  
 * Carola Doerr, Furong Ye, Naama Horesh, Hao Wang, Ofer M. Shir, and Thomas Back. Benchmarking Discrete Optimization Heuristics with IOHprofiler. *Applied Soft Computing*, 88:106027, 2020.
+* Marcus Gallagher. Towards improved benchmarking of black-box optimization algorithms using clustering problems. *Soft Computing*, 20(10):3835-3849, March 2016. doi:10.1007/s00500-016-2094-1.
+s00500-016-2094-1.
+* Sim Kuan Goh, Kay Chen Tan, Abdullah Al-Mamun, and Hussein A. Abbass. Evolutionary big optimization (BigOpt) of signals. In 2015 *IEEE Congress on Evolutionary Computation (CEC)*. IEEE, May 2015. doi:10.1109/cec.2015.7257307. 
 * Stuart A. Kauffman. *The Origins of Order: Self-Organization and Selection in Evolution*. Oxford University Press, USA, 1993.
 * Rui Li, Michael T. M. Emmerich, Jeroen Eggermont, Ernst G. P. Bovenkamp, Thomas Back, Jouke Dijkstra, and Johan H. C. Reiber. Mixed-Integer NK Landscapes. In *Proceedings of Parallel Problem Solving from Nature*, pages 42-51. Springer, 2006.
 * Tianjun Liao, Krzysztof Socha, Marco A. Montes de Oca, Thomas Stutzle, and Marco Dorigo. Ant colony optimization for mixed-variable optimization problems. *IEEE Transactions on Evolutionary Computation*, 18(4):503-518, 2014.
@@ -61,4 +69,23 @@ This resource provides a list of optimisation problem benchmarking sets for evol
 * Ragav Sachdeva, Frank Neumann, and Markus Wagner. The dynamic travelling thief problem: Benchmarks and performance of evolutionary algorithms, 2020.
 * Ryoji Tanabe and Hisao Ishibuchi. An Easy-to-Use Real-World Multi-Objective Optimization Problem Suite. *Applied Soft Computing*, 89:106078, 2020.
 * Tea Tusar, Dimo Brockhoff, and Nikolaus Hansen. Mixed-integer benchmark problems for single- and bi-objective optimization. In *Proceedings of the Genetic and Evolutionary Computation Conference*, pages 718-726. ACM, 2019.
+* Vanessa Volz, Boris Naujoks, Pascal Kerschke, and Tea Tusar. Single- and Multi-Objective Game-Benchmark for Evolutionary Algorithms. In *Proceedings of the Genetic and Evolutionary Computation Conference*, pages 647-655. ACM, 2019.
 * Thomas Weise and Zijun Wu. Difficult features of combinatorial optimization problems and the tunable W-model benchmark problem for simulating them. In *Proceedings of the Genetic and Evolutionary Computation Conference Companion*, GECCO '18, pages 1769-1776. ACM, 2018. ISBN 9781450357647.
+
+
+## Additional problem sets outside the scope of single objective problems:
+
+* *Artificial multi-objective problems*.
+
+    Huband *et al.* (2006) provide a useful review of early multi-objective problem suites and propose the WFG function suite. More recent test suites include the BBOB bi-objective test suite (Brockhoff *et al.*, 2021), the suite defined for the CEC 2020 Special Session on Multimodal Multi-Objective Optimization (https://github.com/P-N-Suganthan/2020-Multimodal-Multi-Objective-Benchmark), and the real-world inspired set by Tanabe and Ishibuchi (2020). In addition, Meneghini *et al.* (2020) propose the Generalized Position-Distance problem generator with parameters for controlling features such as the number of variables and objectives, bias and deceptiveness. 
+    
+* *Dynamic multi-objective optimization problems*. 
+
+    The 2018 CEC competition (http://homepages.cs.ncl.ac.uk/shouyong.jiang/cec2018/cec2018.html) introduced dynamic problems that have been based on popular static, multi-objective optimization problems, such as the DTLZ and the ZDT families. Complementary to this is the slightly older survey (Raquel2013dynemosurvey) that covers test problems, performance measures and optimization approaches. 
+
+    
+## Additional References:
+* Dimo Brockhoff, Tea Tusar, Anne Auger and Nikolaus Hansen. Using Well-Understood Single-Objective Functions in Multiobjective Black-Box Optimization Test Suites. *Evolutionary Computation*, 2021. https://doi.org/10.1162/evco_a_00298.
+* Simon Huband, Philip Hingston, Luigi Barone, and Lyndon While. A Review of Multiobjective Test Problems and a Scalable Test Problem Toolkit. *IEEE Transactions on Evolutionary Computation*, 10(5):477-506, 2006. 
+* Ivan Reinaldo Meneghini, Marcos Antonio Alves, Antonio Gaspar-Cunha and Frederico Gadelha Guimaraes. Scalable and customizable benchmark problems for many-objective optimization. *Applied Soft Computing*, 90:106139, 2020. https://doi.org/10.1016/j.asoc.2020.106139.
+* Ryoji Tanabe and Hisao Ishibuchi. An Easy-to-Use Real-World Multi-Objective Optimization Problem Suite. *Applied Soft Computing*, 89:106078, 2020.

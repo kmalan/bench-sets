@@ -73,7 +73,7 @@ s00500-016-2094-1.
 * Thomas Weise and Zijun Wu. Difficult features of combinatorial optimization problems and the tunable W-model benchmark problem for simulating them. In *Proceedings of the Genetic and Evolutionary Computation Conference Companion*, GECCO '18, pages 1769-1776. ACM, 2018. ISBN 9781450357647.
 
 
-## Additional problem sets outside the scope of single objective problems:
+### Additional problem sets outside the scope of single objective problems:
 
 * *Artificial multi-objective problems*.
 
@@ -84,7 +84,7 @@ s00500-016-2094-1.
     The 2018 CEC competition (http://homepages.cs.ncl.ac.uk/shouyong.jiang/cec2018/cec2018.html) introduced dynamic problems that have been based on popular static, multi-objective optimization problems, such as the DTLZ and the ZDT families. Complementary to this is the slightly older survey (Raquel2013dynemosurvey) that covers test problems, performance measures and optimization approaches. 
 
     
-## Additional References:
+### Additional References:
 * Dimo Brockhoff, Tea Tusar, Anne Auger and Nikolaus Hansen. Using Well-Understood Single-Objective Functions in Multiobjective Black-Box Optimization Test Suites. *Evolutionary Computation*, 2021. https://doi.org/10.1162/evco_a_00298.
 * Simon Huband, Philip Hingston, Luigi Barone, and Lyndon While. A Review of Multiobjective Test Problems and a Scalable Test Problem Toolkit. *IEEE Transactions on Evolutionary Computation*, 10(5):477-506, 2006. 
 * Ivan Reinaldo Meneghini, Marcos Antonio Alves, Antonio Gaspar-Cunha and Frederico Gadelha Guimaraes. Scalable and customizable benchmark problems for many-objective optimization. *Applied Soft Computing*, 90:106139, 2020. https://doi.org/10.1016/j.asoc.2020.106139.
